@@ -93,7 +93,6 @@ class DashboardController extends Controller
             return $this->render('/site/landing');
         } else {
             return $this->render('index');
-
         }
     }
 
