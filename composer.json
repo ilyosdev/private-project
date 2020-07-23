@@ -32,7 +32,8 @@
         "codeception/verify": "~0.5.0 || ~1.1.0",
         "symfony/browser-kit": ">=2.7 <=4.2.4",
         "airani/yii2-telegram-log": "*",
-        "aki/yii2-bot-telegram": "*"
+        "aki/yii2-bot-telegram": "*",
+        "c006/yii2-migration-utility": "dev-master"
     },
     "config": {
         "process-timeout": 1800,

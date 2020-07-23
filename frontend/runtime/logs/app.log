@@ -45648,3 +45648,865 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2020-07-23 13:00:12 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\base\InvalidConfigException] ReflectionException: Class yii\bootstrap\BootstrapAsset does not exist in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:447
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(447): ReflectionClass->__construct()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#11 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#12 [internal function]: yii\base\Controller->__construct()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#22 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#23 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#24 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "yii\bootstrap\BootstrapAsset". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:449
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#11 [internal function]: yii\base\Controller->__construct()
+#12 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#22 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2020-07-23 13:00:11 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5509'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498411.894
+    'REQUEST_TIME' => 1595498411
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 13:02:21 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][Error] Error: Call to a member function validateCsrfToken() on string in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php:203
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#4 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2020-07-23 13:02:21 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5513'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498541.211
+    'REQUEST_TIME' => 1595498541
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 13:04:26 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][Error] Error: Call to a member function validateCsrfToken() on string in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php:203
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#4 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2020-07-23 13:04:26 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5523'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498666.077
+    'REQUEST_TIME' => 1595498666
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 13:04:45 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\base\InvalidConfigException] ReflectionException: Class yii\bootstrap\BootstrapAsset does not exist in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:447
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(447): ReflectionClass->__construct()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#11 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#12 [internal function]: yii\base\Controller->__construct()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#22 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#23 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#24 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "yii\bootstrap\BootstrapAsset". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:449
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#11 [internal function]: yii\base\Controller->__construct()
+#12 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#22 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2020-07-23 13:04:45 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5514'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498685.62
+    'REQUEST_TIME' => 1595498685
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 13:04:47 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\base\InvalidConfigException] ReflectionException: Class yii\bootstrap\BootstrapAsset does not exist in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:447
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(447): ReflectionClass->__construct()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#11 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#12 [internal function]: yii\base\Controller->__construct()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#22 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#23 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#24 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "yii\bootstrap\BootstrapAsset". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:449
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#11 [internal function]: yii\base\Controller->__construct()
+#12 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#22 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2020-07-23 13:04:47 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5527'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498687.06
+    'REQUEST_TIME' => 1595498687
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 13:05:09 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\base\InvalidConfigException] ReflectionException: Class yii\bootstrap4\ActiveFormAsset does not exist in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:447
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(447): ReflectionClass->__construct()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#11 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#12 [internal function]: yii\base\Controller->__construct()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#22 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#23 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#24 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "yii\bootstrap4\ActiveFormAsset". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:449
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#11 [internal function]: yii\base\Controller->__construct()
+#12 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#22 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2020-07-23 13:05:09 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5529'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498709.179
+    'REQUEST_TIME' => 1595498709
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 13:05:12 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\base\InvalidConfigException] ReflectionException: Class yii\bootstrap4\ActiveFormAsset does not exist in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:447
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(447): ReflectionClass->__construct()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#11 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#12 [internal function]: yii\base\Controller->__construct()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#22 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#23 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#24 {main}
+
+Next yii\base\InvalidConfigException: Failed to instantiate component or class "yii\bootstrap4\ActiveFormAsset". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php:449
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(374): yii\di\Container->getDependencies()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(365): yii\di\Container->get()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(264): yii\BaseYii::createObject()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetManager.php(237): yii\web\AssetManager->loadBundle()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(287): yii\web\AssetManager->getBundle()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\View.php(292): yii\web\View->registerAssetBundle()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\AssetBundle.php(125): yii\web\View->registerAssetBundle()
+#8 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\controllers\DefaultController.php(27): yii\web\AssetBundle::register()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\BaseObject.php(109): c006\utility\migration\controllers\DefaultController->init()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(98): yii\base\BaseObject->__construct()
+#11 [internal function]: yii\base\Controller->__construct()
+#12 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(392): ReflectionClass->newInstanceArgs()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\di\Container.php(159): yii\di\Container->build()
+#14 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#15 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(642): yii\BaseYii::createObject()
+#16 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(596): yii\base\Module->createControllerByID()
+#17 E:\Installed\OpenServer\domains\riddin.loc\vendor\c006\yii2-migration-utility\Module.php(50): yii\base\Module->createController()
+#18 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(588): c006\utility\migration\Module->createController()
+#19 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(522): yii\base\Module->createController()
+#20 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#21 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#22 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#23 {main}
+2020-07-23 13:05:12 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5531'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498712.32
+    'REQUEST_TIME' => 1595498712
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 13:05:27 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][Error] Error: Call to a member function validateCsrfToken() on string in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php:203
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#4 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2020-07-23 13:05:27 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5533'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498726.957
+    'REQUEST_TIME' => 1595498726
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 13:05:29 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][Error] Error: Call to a member function validateCsrfToken() on string in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php:203
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#4 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#5 {main}
+2020-07-23 13:05:29 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5537'
+    'REDIRECT_URL' => '/utility'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/utility'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595498729.418
+    'REQUEST_TIME' => 1595498729
+    'argv' => []
+    'argc' => 0
+]
