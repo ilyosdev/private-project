@@ -7,6 +7,7 @@ use Yii;
 use yii\behaviors\BlameableBehavior;
 use yii\behaviors\TimestampBehavior;
 use yii\helpers\FileHelper;
+use common\models\User;
 
 /**
  * This is the model class for table "payment".
@@ -116,11 +117,13 @@ class Payment extends \yii\db\ActiveRecord
 
     public function save($runValidation = false, $attributeNames = null)
     {
+        $userModel = User::findOne(['id' => Yii::$app->user->id]);
         $userID = Yii::$app->user->identity->id;
         $imagePath = 'uploads/' . $userID . '/' . time() . '.jpg';
         $isInsert = $this->isNewRecord;
         if ($isInsert) {
             $this->img = $imagePath;
+            $userModel->updateAttributes(['status' => 1]);
         }
         $saved = parent::save($runValidation, $attributeNames);
         if (!$saved) {

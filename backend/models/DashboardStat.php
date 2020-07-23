@@ -3,10 +3,8 @@
 
     namespace backend\models;
 
-    use common\models\Documents;
-    use common\models\Folders;
-    use common\models\News;
-    use common\models\Questions;
+    use common\models\User;
+//    use common\models\Payment;
 
 
     class DashboardStat

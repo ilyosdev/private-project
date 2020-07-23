@@ -44929,3 +44929,722 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2020-07-22 23:35:41 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/main.min.css.map". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-22 23:35:40 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2486'
+    'REDIRECT_URL' => '/css/main.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/main.min.css.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595450140.956
+    'REQUEST_TIME' => 1595450140
+    'argv' => []
+    'argc' => 0
+]
+2020-07-22 23:35:56 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "css/main.min.css.map". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-22 23:35:56 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2523'
+    'REDIRECT_URL' => '/css/main.min.css.map'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/css/main.min.css.map'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595450156.534
+    'REQUEST_TIME' => 1595450156
+    'argv' => []
+    'argc' => 0
+]
+2020-07-22 23:36:38 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "course-detail.html". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-22 23:36:38 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://riddin.loc/dashboard'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2501'
+    'REDIRECT_URL' => '/course-detail.html'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/course-detail.html'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595450198.27
+    'REQUEST_TIME' => 1595450198
+    'argv' => []
+    'argc' => 0
+]
+2020-07-22 23:37:57 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:405] yii\web\MethodNotAllowedHttpException: Method Not Allowed. This URL can only handle the following request methods: POST. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\filters\VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Component.php(627): call_user_func()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(299): yii\base\Component->trigger()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php(202): yii\base\Controller->beforeAction()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#8 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2020-07-22 23:37:57 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://riddin.loc/dashboard'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2487'
+    'REDIRECT_URL' => '/site/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/logout'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595450277.749
+    'REQUEST_TIME' => 1595450277
+    'argv' => []
+    'argc' => 0
+]
+2020-07-22 23:38:10 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:405] yii\web\MethodNotAllowedHttpException: Method Not Allowed. This URL can only handle the following request methods: POST. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\filters\VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Component.php(627): call_user_func()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(299): yii\base\Component->trigger()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php(202): yii\base\Controller->beforeAction()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#8 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2020-07-22 23:38:10 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://riddin.loc/dashboard'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2487'
+    'REDIRECT_URL' => '/site/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/logout'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595450290.866
+    'REQUEST_TIME' => 1595450290
+    'argv' => []
+    'argc' => 0
+]
+2020-07-22 23:38:14 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:405] yii\web\MethodNotAllowedHttpException: Method Not Allowed. This URL can only handle the following request methods: POST. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\filters\VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Component.php(627): call_user_func()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(299): yii\base\Component->trigger()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php(202): yii\base\Controller->beforeAction()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#8 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2020-07-22 23:38:14 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://riddin.loc/dashboard'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2501'
+    'REDIRECT_URL' => '/site/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/logout'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595450294.129
+    'REQUEST_TIME' => 1595450294
+    'argv' => []
+    'argc' => 0
+]
+2020-07-22 23:38:21 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:405] yii\web\MethodNotAllowedHttpException: Method Not Allowed. This URL can only handle the following request methods: POST. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\filters\VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Component.php(627): call_user_func()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(299): yii\base\Component->trigger()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php(202): yii\base\Controller->beforeAction()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#8 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2020-07-22 23:38:21 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://riddin.loc/dashboard'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2501'
+    'REDIRECT_URL' => '/site/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/logout'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595450301.692
+    'REQUEST_TIME' => 1595450301
+    'argv' => []
+    'argc' => 0
+]
+2020-07-22 23:38:22 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:405] yii\web\MethodNotAllowedHttpException: Method Not Allowed. This URL can only handle the following request methods: POST. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\filters\VerbFilter.php:105
+Stack trace:
+#0 [internal function]: yii\filters\VerbFilter->beforeAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Component.php(627): call_user_func()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(299): yii\base\Component->trigger()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Controller.php(202): yii\base\Controller->beforeAction()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(178): yii\web\Controller->beforeAction()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#6 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#8 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#9 {main}
+2020-07-22 23:38:22 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-backend' => '5ojcktovvt0gncv1bge5ooilo79s8ae4'
+    '_csrf-backend' => '6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"w5e1pW8atZ-CmTwhLLuJWmalw265wMgW\";}'
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_REFERER' => 'http://riddin.loc/dashboard'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-backend=5ojcktovvt0gncv1bge5ooilo79s8ae4; _csrf-backend=6bdf37a41b89db7a62707ee93f4fc097893331c3a6d09dedbdf80ee1526d2b84a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22w5e1pW8atZ-CmTwhLLuJWmalw265wMgW%22%3B%7D; advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2487'
+    'REDIRECT_URL' => '/site/logout'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/site/logout'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595450302.664
+    'REQUEST_TIME' => 1595450302
+    'argv' => []
+    'argc' => 0
+]
+2020-07-23 12:46:05 [127.0.0.1][10][i1lk403umi8it5l4hjuh9ir5bka4391a][error][yii\db\Exception] PDOException: SQLSTATE[HY000]: General error: 1364 Field 'phone' doesn't have a default value in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\Command.php:1293
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\Command.php(1293): PDOStatement->execute()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert()
+#6 E:\Installed\OpenServer\domains\riddin.loc\common\models\Payment.php(127): yii\db\BaseActiveRecord->save()
+#7 E:\Installed\OpenServer\domains\riddin.loc\frontend\controllers\PaymentController.php(72): common\models\Payment->save()
+#8 [internal function]: frontend\controllers\PaymentController->actionCreate()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams()
+#11 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#12 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#14 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+
+Next yii\db\Exception: SQLSTATE[HY000]: General error: 1364 Field 'phone' doesn't have a default value
+The SQL being executed was: INSERT INTO `user` (`status`, `created_at`, `updated_at`) VALUES (1, 1595497565, 1595497565) in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\Schema.php:677
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\Command.php(1298): yii\db\Schema->convertException()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\Command.php(1093): yii\db\Command->internalExecute()
+#2 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\Schema.php(432): yii\db\Command->execute()
+#3 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\ActiveRecord.php(600): yii\db\Schema->insert()
+#4 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\ActiveRecord.php(566): yii\db\ActiveRecord->insertInternal()
+#5 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\db\BaseActiveRecord.php(678): yii\db\ActiveRecord->insert()
+#6 E:\Installed\OpenServer\domains\riddin.loc\common\models\Payment.php(127): yii\db\BaseActiveRecord->save()
+#7 E:\Installed\OpenServer\domains\riddin.loc\frontend\controllers\PaymentController.php(72): common\models\Payment->save()
+#8 [internal function]: frontend\controllers\PaymentController->actionCreate()
+#9 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#10 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Controller.php(180): yii\base\InlineAction->runWithParams()
+#11 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php(528): yii\base\Controller->runAction()
+#12 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#13 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#14 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => HY000
+    [1] => 1364
+    [2] => Field 'phone' doesn't have a default value
+)
+
+2020-07-23 12:46:05 [127.0.0.1][10][i1lk403umi8it5l4hjuh9ir5bka4391a][info][application] $_GET = []
+
+$_POST = [
+    '_csrf-frontend' => 'yehZQMV-gbxBJ4vQzr2-57AlSqQRdcEm0JSjH73UAzCa0BJ5mjPUinRfybiC14q-nVE43CQxtVXp5ftJxYNPYg=='
+    'Payment' => [
+        'img' => ''
+    ]
+]
+
+$_FILES = [
+    'Payment' => [
+        'name' => [
+            'img' => 'Kara-Eads-photo-1554995207-c18c203602cb.jpg'
+        ]
+        'type' => [
+            'img' => 'image/jpeg'
+        ]
+        'tmp_name' => [
+            'img' => 'E:\\Installed\\OpenServer\\userdata\\php_upload\\php4F1D.tmp'
+        ]
+        'error' => [
+            'img' => 0
+        ]
+        'size' => [
+            'img' => 136564
+        ]
+    ]
+]
+
+$_COOKIE = [
+    'advanced-frontend' => 'i1lk403umi8it5l4hjuh9ir5bka4391a'
+    '_csrf-frontend' => '9d57d2b79b8de712c4dea7b5c44f5949af125f6ef9f12d310ddf6ef1e97c037aa:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"S8K9_MU65xBhLj4Y-trx5Dts9qXVxWLR\";}'
+    '_identity-frontend' => 'ac16838f8377667d25cb922ff170d2c412d8f49939576f529636fe3c8ba6b08fa:2:{i:0;s:18:\"_identity-frontend\";i:1;s:47:\"[10,\"qMHUDgDj-l8BZlox2BoU3igUO9bdTO8V\",2592000]\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 10
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_REFERER' => 'http://riddin.loc/payment/create'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-US,en;q=0.7,ru;q=0.3'
+    'CONTENT_TYPE' => 'multipart/form-data; boundary=---------------------------7e47d5330810'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.102 Safari/537.36 Edge/18.18363'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_HOST' => 'riddin.loc'
+    'CONTENT_LENGTH' => '137081'
+    'HTTP_CONNECTION' => 'Keep-Alive'
+    'HTTP_COOKIE' => 'advanced-frontend=i1lk403umi8it5l4hjuh9ir5bka4391a; _csrf-frontend=9d57d2b79b8de712c4dea7b5c44f5949af125f6ef9f12d310ddf6ef1e97c037aa%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22S8K9_MU65xBhLj4Y-trx5Dts9qXVxWLR%22%3B%7D; _identity-frontend=ac16838f8377667d25cb922ff170d2c412d8f49939576f529636fe3c8ba6b08fa%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A47%3A%22%5B10%2C%22qMHUDgDj-l8BZlox2BoU3igUO9bdTO8V%22%2C2592000%5D%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5265'
+    'REDIRECT_URL' => '/payment/create'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'POST'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/payment/create'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595497565.188
+    'REQUEST_TIME' => 1595497565
+    'argv' => []
+    'argc' => 0
+]
