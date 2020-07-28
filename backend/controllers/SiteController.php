@@ -56,7 +56,9 @@
          */
         public function actionIndex()
         {
-            return $this->render('index');
+            $dashboardstat = new DashboardStat();
+            $dashboardstat->countUsers();
+            return $this->render('index', ['stats' => $dashboardstat]);
         }
 
         /**

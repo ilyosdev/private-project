@@ -32,8 +32,6 @@ class User extends ActiveRecord implements IdentityInterface
     const STATUS_WAITING = 1;
     const STATUS_ACTIVE = 2;
 
-
-
     /**
      * {@inheritdoc}
      */
@@ -162,16 +160,6 @@ class User extends ActiveRecord implements IdentityInterface
     {
         return $this->auth_key;
     }
-
-
-
-
-
-
-
-
-
-
 
 
 

@@ -2,12 +2,14 @@
 
 namespace backend\controllers;
 
-use Yii;
-use common\models\User;
+use common\models\Payment;
 use common\models\search\UsersSearch;
+use common\models\User;
+use Yii;
+use yii\filters\VerbFilter;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
-use yii\filters\VerbFilter;
+use yii\web\Response;
 
 /**
  * UsersController implements the CRUD actions for User model.
@@ -55,6 +57,22 @@ class UsersController extends Controller
         return $this->render('view', [
             'model' => $this->findModel($id),
         ]);
+    }
+
+    /**
+     * Finds the User model based on its primary key value.
+     * If the model is not found, a 404 HTTP exception will be thrown.
+     * @param integer $id
+     * @return User the loaded model
+     * @throws NotFoundHttpException if the model cannot be found
+     */
+    protected function findModel($id)
+    {
+        if (($model = User::findOne($id)) !== null) {
+            return $model;
+        }
+
+        throw new NotFoundHttpException('The requested page does not exist.');
     }
 
     /**
@@ -109,19 +127,71 @@ class UsersController extends Controller
         return $this->redirect(['index']);
     }
 
-    /**
-     * Finds the User model based on its primary key value.
-     * If the model is not found, a 404 HTTP exception will be thrown.
-     * @param integer $id
-     * @return User the loaded model
-     * @throws NotFoundHttpException if the model cannot be found
-     */
-    protected function findModel($id)
+    public function actionStatus($s)
     {
-        if (($model = User::findOne($id)) !== null) {
-            return $model;
+        $users = Payment::findByStatus($s);
+
+        if($s == 0) {
+            return $this->render('activation', [
+                'dataProvider' => $users,
+            ]);
+        }
+       return $this->render('usersStatus', [
+           'dataProvider' => $users,
+       ]);
+    }
+
+
+    public function actionPayment($action, $id, $days)
+    {
+        if (Yii::$app->request->isAjax) {
+            Yii::$app->response->format = Response::FORMAT_JSON;
+            $modelPayment = Payment::find()->where(['id' => $id])->one();
+            $modelUser = User::find()->where(['id' => $modelPayment->created_by])->one();
+
+            $duedate = strtotime('now'."+$days days");
+
+            if ($action === 'accept') {
+
+                $modelPayment->status = 1;
+                $modelUser->status = 2;
+                $modelUser->due_date = $duedate;
+
+                if ($modelPayment->save() && $modelUser->save()) {
+                    return ['data' => [
+                        'success' => true,
+                        'message' => 'User has been activated.',
+                    ]];
+                }
+
+                return ['data' => [
+                    'success' => false,
+                    'message' => 'check attributes',
+                ]];
+            } elseif ($action === 'reject') {
+
+                $modelPayment->status = 2;
+                $modelUser->status = 0;
+
+                if ($modelPayment->save() && $modelUser->save()) {
+                    return ['data' => [
+                        'success' => true,
+                        'message' => 'Payment rejected.',
+                    ]];
+                }
+
+                return ['data' => [
+                    'success' => false,
+                    'message' => 'check attributes',
+                ]];
+            }
         }
 
-        throw new NotFoundHttpException('The requested page does not exist.');
+        return ['data' => [
+            'success' => false,
+            'message' => 'this is not ajax request',
+        ]];
+
     }
+
 }

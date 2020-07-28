@@ -7,7 +7,7 @@ use Yii;
 use yii\behaviors\BlameableBehavior;
 use yii\behaviors\TimestampBehavior;
 use yii\helpers\FileHelper;
-use common\models\User;
+use yii\data\SqlDataProvider;
 
 /**
  * This is the model class for table "payment".
@@ -16,8 +16,8 @@ use common\models\User;
  * @property string $img
  * @property int $created_by
  * @property int|null $status 0 - waiting, 1 active, 2  rejected
- * @property int|null    $created_at
- * @property int|null    $updated_at
+ * @property int|null $created_at
+ * @property int|null $updated_at
  *
  * @property User $user
  */
@@ -44,6 +44,27 @@ class Payment extends \yii\db\ActiveRecord
     public static function find()
     {
         return new PaymentQuery(get_called_class());
+    }
+
+    public static function findByStatus($status)
+    {
+        $connection = Yii::$app->getDb();
+        $sql = "SELECT T1.id, T1.img, T1.status, T1.id as user_id, user.name as username, T1.created_at
+            FROM payment T1    
+            left join user on user.id = T1.created_by
+            WHERE T1.id = (
+               SELECT max(id)
+               FROM payment T2
+               WHERE T1.created_by = T2.created_by
+            )  
+            and T1.status = $status
+        ";
+
+//        $result = $command->queryAll();
+        $dataProvider = new SqlDataProvider([
+         'sql' => $sql
+        ]);
+        return $dataProvider;
     }
 
     public function behaviors()
@@ -96,15 +117,6 @@ class Payment extends \yii\db\ActiveRecord
         return $this->hasOne(User::className(), ['id' => 'user_id']);
     }
 
-    public function getStatusLabel()
-    {
-        return [
-            self::STATUS_WAITING => 'Tekshirilmoqda',
-            self::STATUS_ACTIVE => 'Faollashtirildi',
-            self::STATUS_REJECTED => 'Rad etildi',
-        ];
-    }
-
 //    public function upload()
 //    {
 //        if ($this->validate()) {
@@ -114,6 +126,15 @@ class Payment extends \yii\db\ActiveRecord
 //            return false;
 //        }
 //    }
+
+    public function getStatusLabel()
+    {
+        return [
+            self::STATUS_WAITING => 'Tekshirilmoqda',
+            self::STATUS_ACTIVE => 'Faollashtirildi',
+            self::STATUS_REJECTED => 'Rad etildi',
+        ];
+    }
 
     public function save($runValidation = false, $attributeNames = null)
     {
@@ -130,7 +151,7 @@ class Payment extends \yii\db\ActiveRecord
             return false;
         }
         if ($isInsert) {
-            $imgPath = Yii::getAlias('@frontend/web/'.$imagePath);
+            $imgPath = Yii::getAlias('@frontend/web/' . $imagePath);
             if (!is_dir(dirname($imgPath))) {
                 FileHelper::createDirectory(dirname($imgPath));
             }

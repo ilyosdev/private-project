@@ -7,7 +7,7 @@
                         <div class="d-flex justify-content-between mb-3">
                             <div>
                                 <p class="text-muted">To`lov qilmaganlar</p>
-                                <h2 class="font-weight-bold">12</h2>
+                                <h2 class="font-weight-bold"><?=$stats->registeredUsers?></h2>
                             </div>
                             <div>
                                 <figure class="avatar">
@@ -31,7 +31,7 @@
                         <div class="d-flex justify-content-between mb-3">
                             <div>
                                 <p class="text-muted">Faollashtirishilini kutayotganlar</p>
-                                <h2 class="font-weight-bold">12</h2>
+                                <h2 class="font-weight-bold"><?=$stats->waitingUsers?></h2>
                             </div>
                             <div>
                                 <figure class="avatar">
@@ -55,7 +55,7 @@
                         <div class="d-flex justify-content-between mb-3">
                             <div>
                                 <p class="text-muted">Aktiv foydalanuvchilar</p>
-                                <h2 class="font-weight-bold">12</h2>
+                                <h2 class="font-weight-bold"><?=$stats->activeUsers?></h2>
                             </div>
                             <div>
                                 <figure class="avatar">
