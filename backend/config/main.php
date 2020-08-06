@@ -55,8 +55,9 @@
                     '<controller>'                                              => '<controller>',
                     '<controller>/<action>'                                     => '<controller>/<action>',
                     '<controller>/<action>/<id:\d+>'                            => '<controller>/<action>',
+                    '<controller>/<action:\d+>?<id:\d+>'                        => '<controller>/<action>',
                     '<controller>/<action>/<s:\d+>'                             => '<controller>/<action>',
-                    '<controller>/<action>/<action:\d+>&<id:\d+>&<days:\d+>'      => '<controller>/<action>',
+                    '<controller>/<action>/<action:\d+>&<id:\d+>&<days:\d+>'    => '<controller>/<action>',
                     '<controller>/<action>/<id:\d+>/<title>'                    => '<controller>/<action>',
                     '<controller>/<id:\d+>/<title>'                             => '<controller>/index',
                     '<controller>/<action>/<params:\S+>'                        => '<controller>/<action>',
@@ -118,5 +119,6 @@
                 ],
             ]
         ],
-        'params'              => $params,
+
+        'params' => $params,
     ];

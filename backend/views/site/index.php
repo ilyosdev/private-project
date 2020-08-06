@@ -1,3 +1,8 @@
+<?php
+
+use yii\helpers\Url;
+
+?>
 <div class="row">
     <div class="col-md-12">
         <div class="row">
@@ -42,9 +47,7 @@
                             </div>
                         </div>
                         <div class="d-inline-flex align-items-center">
-                                            <span class="text-success d-inline-flex align-items-center mr-2">
-                                                <span class="fa fa-arrow-down mr-2"></span>12%
-                                            </span> Ўтган ойга нисбатан
+                            <a class="btn btn-dark btn-lg btn-block" href="<?=Url::to(['/users/status?s=0'])?>">Batafsil ro'yxat</a>
                         </div>
                     </div>
                 </div>

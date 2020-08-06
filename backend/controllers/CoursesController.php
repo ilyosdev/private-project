@@ -8,6 +8,7 @@ use yii\data\ActiveDataProvider;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
+use yii\web\UploadedFile;
 
 /**
  * CoursesController implements the CRUD actions for Courses model.
@@ -58,16 +59,25 @@ class CoursesController extends Controller
     }
 
     /**
-     * Creates a new Courses model.
-     * If creation is successful, the browser will be redirected to the 'view' page.
+     * Displays a single Courses model.
+     * @param integer $id
      * @return mixed
+     * @throws NotFoundHttpException if the model cannot be found
      */
+    public function actionContent($id)
+    {
+        return $this->render('addContent', [
+            'model' => $this->findModel($id),
+        ]);
+    }
+
     public function actionCreate()
     {
         $model = new Courses();
+        $model->image = UploadedFile::getInstanceByName('Courses[image]');
 
-        if ($model->load(Yii::$app->request->post()) && $model->save()) {
-            return $this->redirect(['view', 'id' => $model->id]);
+        if (Yii::$app->request->isPost && $model->load(Yii::$app->request->post()) && $model->save()) {
+            return $this->redirect(['content', 'id' => $model->id]);
         }
 
         return $this->render('create', [

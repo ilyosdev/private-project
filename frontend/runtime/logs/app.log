@@ -51840,3 +51840,983 @@ $_SERVER = [
     'argv' => []
     'argc' => 0
 ]
+2020-07-28 20:49:39 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-28 20:49:38 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    'advanced-backend' => 'im1g3hj6tamsh33v40ct054l0lcjksqq'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; advanced-backend=im1g3hj6tamsh33v40ct054l0lcjksqq; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2136'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1595958578.894
+    'REQUEST_TIME' => 1595958578
+    'argv' => []
+    'argc' => 0
+]
+2020-07-29 18:31:46 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-29 18:31:45 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    'advanced-backend' => 'im1g3hj6tamsh33v40ct054l0lcjksqq'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.89 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; advanced-backend=im1g3hj6tamsh33v40ct054l0lcjksqq; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '4331'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596036705.77
+    'REQUEST_TIME' => 1596036705
+    'argv' => []
+    'argc' => 0
+]
+2020-07-30 18:44:21 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-07-30 18:44:20 [127.0.0.1][9][u7ssh3jr0a2e6jl9abhdptunv0272au7][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    'advanced-backend' => 'im1g3hj6tamsh33v40ct054l0lcjksqq'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/create'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; advanced-backend=im1g3hj6tamsh33v40ct054l0lcjksqq; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '5810'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596123860.926
+    'REQUEST_TIME' => 1596123860
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 19:15:12 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 19:15:12 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'advanced-frontend' => 'u7ssh3jr0a2e6jl9abhdptunv0272au7'
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => 'advanced-frontend=u7ssh3jr0a2e6jl9abhdptunv0272au7; _identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '1479'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596730512.388
+    'REQUEST_TIME' => 1596730512
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:10:06 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:10:05 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/addContent'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2102'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596733805.934
+    'REQUEST_TIME' => 1596733805
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:12:35 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:12:35 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/addContent?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2127'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596733955.013
+    'REQUEST_TIME' => 1596733955
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:44:57 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:44:56 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/content?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2390'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596735896.83
+    'REQUEST_TIME' => 1596735896
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:48:20 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:48:20 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/content?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2402'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596736100.876
+    'REQUEST_TIME' => 1596736100
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:48:26 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:48:26 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/content?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2409'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596736106.048
+    'REQUEST_TIME' => 1596736106
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:49:08 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:49:08 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/content?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2433'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596736148.351
+    'REQUEST_TIME' => 1596736148
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:49:21 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:49:21 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/content?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2442'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596736161.103
+    'REQUEST_TIME' => 1596736161
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:49:24 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:49:24 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/content?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2445'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596736164.396
+    'REQUEST_TIME' => 1596736164
+    'argv' => []
+    'argc' => 0
+]
+2020-08-06 20:55:10 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "favicon.png". in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Module.php:537
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#2 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Sahifa topilmadi. in E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 E:\Installed\OpenServer\domains\riddin.loc\vendor\yiisoft\yii2\base\Application.php(386): yii\web\Application->handleRequest()
+#1 E:\Installed\OpenServer\domains\riddin.loc\frontend\web\index.php(17): yii\base\Application->run()
+#2 {main}
+2020-08-06 20:55:10 [127.0.0.1][9][6q6328vnct7shqrhsqdfk14hv2q9ujrd][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    '_identity-frontend' => '18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a:2:{i:0;s:18:\"_identity-frontend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-frontend' => '712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda:2:{i:0;s:14:\"_csrf-frontend\";i:1;s:32:\"h8hFwrsTu9WiNlAptR8umj3OTxawnl5L\";}'
+    '_identity-backend' => 'ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a:2:{i:0;s:17:\"_identity-backend\";i:1;s:46:\"[9,\"PV840-m0lqB7GLQrKHYWBLTqkqrij78T\",2592000]\";}'
+    '_csrf-backend' => '4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a:2:{i:0;s:13:\"_csrf-backend\";i:1;s:32:\"oteL6wUAEEig4-tcnAPWFricC5rQCzGX\";}'
+    'advanced-backend' => '15hop1toi9va208chabvf9elhvrb85ln'
+    'advanced-frontend' => '6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__id' => 9
+]
+
+$_SERVER = [
+    'REDIRECT_APP' => 'frontend'
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'riddin.loc'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_PRAGMA' => 'no-cache'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36'
+    'HTTP_ACCEPT' => 'image/webp,image/apng,image/*,*/*;q=0.8'
+    'HTTP_REFERER' => 'http://riddin.loc/admin/courses/content?id=1'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'en-GB,en-US;q=0.9,en;q=0.8,uz;q=0.7,pt;q=0.6'
+    'HTTP_COOKIE' => '_identity-frontend=18b0ac75d98662dd982cb23a54d4ae473d433956c1401937437066cbd72516d3a%3A2%3A%7Bi%3A0%3Bs%3A18%3A%22_identity-frontend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-frontend=712a8e10de23d0c46bf1feaed63db551e49c9a03eea76ffba2a48e1ff3d03cbda%3A2%3A%7Bi%3A0%3Bs%3A14%3A%22_csrf-frontend%22%3Bi%3A1%3Bs%3A32%3A%22h8hFwrsTu9WiNlAptR8umj3OTxawnl5L%22%3B%7D; _identity-backend=ad764a4d3c9e7dd4d725d106dd1806068d1adeb875597029dcc6f9826c5b61f1a%3A2%3A%7Bi%3A0%3Bs%3A17%3A%22_identity-backend%22%3Bi%3A1%3Bs%3A46%3A%22%5B9%2C%22PV840-m0lqB7GLQrKHYWBLTqkqrij78T%22%2C2592000%5D%22%3B%7D; _csrf-backend=4d26baeeb1a554822c8ef11d854482ef73c5c9acca6640853566eef65d6f8356a%3A2%3A%7Bi%3A0%3Bs%3A13%3A%22_csrf-backend%22%3Bi%3A1%3Bs%3A32%3A%22oteL6wUAEEig4-tcnAPWFricC5rQCzGX%22%3B%7D; advanced-backend=15hop1toi9va208chabvf9elhvrb85ln; advanced-frontend=6q6328vnct7shqrhsqdfk14hv2q9ujrd'
+    'PATH' => 'e:\\installed\\openserver\\modules\\php\\PHP_7.4\\ext;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear;e:\\installed\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;e:\\installed\\openserver\\modules\\php\\PHP_7.4;e:\\installed\\openserver\\modules\\wget\\bin;e:\\installed\\openserver\\modules\\database\\MySQL-5.7\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4\\bin;e:\\installed\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'riddin.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'E:/Installed/OpenServer/domains/riddin.loc'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'E:/Installed/OpenServer/domains/riddin.loc/frontend/web/index.php'
+    'REMOTE_PORT' => '2501'
+    'REDIRECT_URL' => '/favicon.png'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/favicon.png'
+    'SCRIPT_NAME' => '/frontend/web/index.php'
+    'PHP_SELF' => '/frontend/web/index.php'
+    'REQUEST_TIME_FLOAT' => 1596736510.89
+    'REQUEST_TIME' => 1596736510
+    'argv' => []
+    'argc' => 0
+]
