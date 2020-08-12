@@ -3,7 +3,7 @@
 // ==========================================
 // =	INTERACT WITH REST API HERE!!!		=
 // ==========================================
-const CREATE_CHAPTER = (title, cb)=>{
+const CREATE_CHAPTER = (title, cb) => {
     // following structure need to be passed to cb:
     // cb({err:bool, id:int, title:str})
     loading.show();
@@ -20,13 +20,13 @@ const CREATE_CHAPTER = (title, cb)=>{
 
 
     // comment out following code, it is only written to simulate request-response time
-    setTimeout(()=>{
+    setTimeout(() => {
         loading.hide();
-        cb({err: false, id: Math.floor(Math.random()*100000000), title: title})
+        cb({err: false, id: Math.floor(Math.random() * 100000000), title: title})
     }, 1000)
 }
 
-const EDIT_CHAPTER = (id, title, cb)=>{
+const EDIT_CHAPTER = (id, title, cb) => {
     // following structure need to be passed to cb:
     // cb({err:bool, title:str})
     loading.show();
@@ -43,14 +43,14 @@ const EDIT_CHAPTER = (id, title, cb)=>{
 
 
     // comment out following code, it is only written to simulate request-response time
-    setTimeout(()=>{
+    setTimeout(() => {
         loading.hide();
         cb({err: false, title: title})
     }, 1000)
 
 }
 
-const DELETE_CHAPTER = (ID, cb)=>{
+const DELETE_CHAPTER = (ID, cb) => {
     loading.show();
 
     // send delete request to REST API service
@@ -63,15 +63,14 @@ const DELETE_CHAPTER = (ID, cb)=>{
     // }
 
 
-
     // comment out following code, it is only written to simulate request-response time
-    setTimeout(()=>{
+    setTimeout(() => {
         loading.hide();
         cb(false);
     }, 1000)
 }
 
-const CREATE_LESSON = (title, cb)=>{
+const CREATE_LESSON = (title, cb) => {
     // following structure need to be passed to cb:
     // cb({err:bool, id:int, title:str})
     loading.show();
@@ -88,14 +87,14 @@ const CREATE_LESSON = (title, cb)=>{
 
 
     // comment out following code, it is only written to simulate request-response time
-    setTimeout(()=>{
+    setTimeout(() => {
         loading.hide();
-        cb({err: false, id: Math.floor(Math.random()*100000000), title: title})
+        cb({err: false, id: Math.floor(Math.random() * 100000000), title: title})
     }, 1000)
 
 }
 
-const EDIT_LESSON = (id, title, cb)=>{
+const EDIT_LESSON = (id, title, cb) => {
     // following structure need to be passed to cb:
     // cb({err:bool, title:str})
     loading.show();
@@ -112,13 +111,13 @@ const EDIT_LESSON = (id, title, cb)=>{
 
 
     // comment out following code, it is only written to simulate request-response time
-    setTimeout(()=>{
+    setTimeout(() => {
         loading.hide();
         cb({err: false, title: title})
     }, 1000)
 }
 
-const DELETE_LESSON = (ID, cb)=>{
+const DELETE_LESSON = (ID, cb) => {
     loading.show();
 
     // send delete request to REST API service
@@ -131,10 +130,10 @@ const DELETE_LESSON = (ID, cb)=>{
     // }
 
 
-
     // comment out following code, it is only written to simulate request-response time
-    setTimeout(()=>{
+    setTimeout(() => {
         loading.hide();
         cb(false);
     }, 1000)
 }
+

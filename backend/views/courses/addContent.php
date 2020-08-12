@@ -1,7 +1,6 @@
 <?php
 
     use yii\helpers\Html;
-    use yii\web\View;
     use yii\web\YiiAsset;
 
     /* @var $this yii\web\View */
@@ -13,8 +12,7 @@
     YiiAsset::register($this);
 
     $this->registerJsFile(
-        '@web/js/courseContentHead.js',
-        ['position'=>  View::POS_HEAD]
+        '@web/js/courseContentHead.js'
     );
 ?>
     <div class="courses-body">
@@ -66,62 +64,7 @@
 
                             <!-- following is to be rendered inside PHP loop -->
                             <!-- AGAIN, data-id is unique ID for each lesson item -->
-                            <div class="lesson-item" data-id="1">
-                                <div class="lesson-title" onclick="LessonDetailsToggleListener(event)">Lesson 1</div>
-                                <div class="lesson-body">
-                                    <div class="lesson-actions">
-                                        <button onclick="EditLessonListener(event)">Edit lesson</button>
-                                        <button onclick="DeleteLessonListener(event)">Delete lesson</button>
-                                    </div>
-                                    <button onclick="ManageLessonListener(event)">Manage content</button>
-                                    <div class="lesson-body-contents">
-                                        <ul>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
 
-                            <div class="lesson-item" data-id="2">
-                                <div class="lesson-title" onclick="LessonDetailsToggleListener(event)">Lesson 2</div>
-                                <div class="lesson-body">
-                                    <div class="lesson-actions">
-                                        <button onclick="EditLessonListener(event)">Edit lesson</button>
-                                        <button onclick="DeleteLessonListener(event)">Delete lesson</button>
-                                    </div>
-                                    <button onclick="ManageLessonListener(event)">Manage content</button>
-                                    <div class="lesson-body-contents">
-                                        <ul>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
-
-                            <div class="lesson-item" data-id="3">
-                                <div class="lesson-title" onclick="LessonDetailsToggleListener(event)">Lesson 3</div>
-                                <div class="lesson-body">
-                                    <div class="lesson-actions">
-                                        <button onclick="EditLessonListener(event)">Edit lesson</button>
-                                        <button onclick="DeleteLessonListener(event)">Delete lesson</button>
-                                    </div>
-                                    <button onclick="ManageLessonListener(event)">Manage content</button>
-                                    <div class="lesson-body-contents">
-                                        <ul>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                            <li><a href="#!">lesson item</a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                            </div>
 
 
                         </div>
@@ -146,8 +89,9 @@
 
     </div>
 <?php
+
+
     $this->registerJsFile(
-        '@web/js/courseContentFoot.js',
-        ['position'=>  View::POS_END]
+        '@web/js/courseContentFoot.js'
     );
 ?>

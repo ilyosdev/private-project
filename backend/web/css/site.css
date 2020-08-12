@@ -697,6 +697,8 @@ nav .pagination {
     width: 101%;
     height: 101vh;
     position: fixed;
+    left: 0;
+    top: 0;
     z-index: 9999999999999999;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
@@ -767,10 +769,12 @@ nav .pagination {
     margin-bottom: 3px;
 }
 
-.alert-box, .confirm-box, .prompt-box{
+.alert-box, .confirm-box, .prompt-box {
     width: 101%;
     height: 101vh;
     position: fixed;
+    left: 0;
+    top: 0;
     z-index: 99999999999999999;
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
@@ -794,8 +798,9 @@ nav .pagination {
     font-size: 20px;
 }
 
-.prompt-message{
-    height: 100px;
+.prompt-message {
+    height: 150px;
+    width: 450px;
 }
 
 .prompt-message input{
@@ -820,8 +825,8 @@ nav .pagination {
 }
 
 .confirm-actions, .prompt-actions {
-    width: 300px;
-    height: 50px;
+    height: 70px;
+    width: 450px;
     display: flex;
 }
 
