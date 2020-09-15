@@ -1852,16 +1852,16 @@
         },
         {
             "name": "yiisoft/yii2",
-            "version": "2.0.36",
+            "version": "2.0.38",
             "source": {
                 "type": "git",
                 "url": "https://github.com/yiisoft/yii2-framework.git",
-                "reference": "a557111ea6c27794b98c98b76ff3f127eb55f309"
+                "reference": "fd01e747cc66a049ec105048f0ab8dfbdf60bf4b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/a557111ea6c27794b98c98b76ff3f127eb55f309",
-                "reference": "a557111ea6c27794b98c98b76ff3f127eb55f309",
+                "url": "https://api.github.com/repos/yiisoft/yii2-framework/zipball/fd01e747cc66a049ec105048f0ab8dfbdf60bf4b",
+                "reference": "fd01e747cc66a049ec105048f0ab8dfbdf60bf4b",
                 "shasum": ""
             },
             "require": {
@@ -1962,7 +1962,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2020-07-07T21:45:32+00:00"
+            "time": "2020-09-14T21:52:10+00:00"
         },
         {
             "name": "yiisoft/yii2-bootstrap4",
@@ -2398,12 +2398,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/c006/yii2-migration-utility.git",
-                "reference": "4498e3f4ccb56ebb97af07f991b0bea54890060c"
+                "reference": "5b89422facc97ef5e5364f2cdcea6fd31f5c65de"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/c006/yii2-migration-utility/zipball/4498e3f4ccb56ebb97af07f991b0bea54890060c",
-                "reference": "4498e3f4ccb56ebb97af07f991b0bea54890060c",
+                "url": "https://api.github.com/repos/c006/yii2-migration-utility/zipball/5b89422facc97ef5e5364f2cdcea6fd31f5c65de",
+                "reference": "5b89422facc97ef5e5364f2cdcea6fd31f5c65de",
                 "shasum": ""
             },
             "type": "yii2-extension",
@@ -2429,7 +2429,7 @@
                 "tables",
                 "yii2"
             ],
-            "time": "2020-06-22T23:17:39+00:00"
+            "time": "2020-07-27T19:16:20+00:00"
         },
         {
             "name": "codeception/codeception",
@@ -3798,6 +3798,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2019-09-17T06:23:10+00:00"
         },
         {
